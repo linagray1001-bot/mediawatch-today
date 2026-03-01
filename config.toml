@@ -1,0 +1,20 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "MediaWatch Today"
+theme = ""
+paginate = 12
+enableRobotsTXT = true
+
+[params]
+  description = "Today in media and streaming"
+  author = "MediaWatch Today Team"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+
+[markup.goldmark.renderer]
+  unsafe = true
